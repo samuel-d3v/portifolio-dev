@@ -5,15 +5,27 @@
 }
 
 :root{
- --Main-Red: #E3646E;
- --Main-Purple: #BB72E9;
- --Main-Blue: #3996DB;
- --Main-Green: #82BC4F;
- --Main-Yellow: #EABD5F;
- --Base-Gray-100: #0D0E11;
- --Base_Gray-200: #16181D;
- --Base-Gray-300: #292C34;
- --Base-Gray-400: #878EA1;
- --Base-Gray-500: #C0C4CE;
- --Base-Gray-600: #E2E4E9;
-}
+ --main-red: #E3646E;
+ --main-purple: #BB72E9;
+ --main-blue: #3996DB;
+ --main-green: #82BC4F;
+ --main-yellow: #EABD5F;
+ --base-gray-100: #0D0E11;
+ --base_gray-200: #16181D;
+ --base-gray-300: #292C34;
+ --base-gray-400: #878EA1;
+ --base-gray-500: #C0C4CE;
+ --base-gray-600: #E2E4E9;
+
+ --font-family-title: "Asap", sans-serif;
+ --h1: 700 56px/120% var(--font-family);
+ --h2: 700 24px/120% var(--font-family);
+ --title-card: 700 16px/120% var(--font-family-title);
+
+ --font-family-subtitle: "Inconsolata", monospace;
+ --subtitle: 400 20px/120% var(--font-family-subtitle);
+
+ --font-family-text: "Maven Pro", sans-serif;
+ --text-sm: 400 14px/140% var(--font-family-text);
+ --text-md: 400 16px/140% var(--font-family-text);
+} 
