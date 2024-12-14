@@ -12,99 +12,101 @@
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-
   <header>
-    <section>
-     <div id="profile">
+    <div id="container">
+      <section id="profile">
         <div id="avatar">
-          <img src="assets/images/profile.jpg" alt="Foto do perfil em formato redondo">
+          <div id="border">
+            <img src="assets/images/profile.jpg" alt="Foto do perfil em formato redondo">
+          </div>
 
           <i class="ph-bold ph-code"></i>
         </div>
-
+        
         <div id="text">
           <div id="title">
-            <p>
-              Hello World! Meu nome é Martina Santos e sou
+            <p class="subtitle">
+              Hello World! Meu nome é <span>Martina Santos</span> e sou
             </p>
-
+            
             <h1>
               Desenvolvedora Fullstack
             </h1>
           </div>
-          <p>
+          <p class="text-sm">
             Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
           </p>
         </div>
-     </div>
-    </section>
+      </section>
 
-    <section>
-      <div class="tag">
-        <img src="assets/icons/GitHub.svg" alt="Ícone do GitHub">
+      <section>
+        <div class="tag">
+          <img src="assets/icons/GitHub.svg" alt="Ícone do GitHub">
 
-        <p>
-          GitHub
-        </p>
-      </div>
+          <p class="text-md">
+            GitHub
+          </p>
+        </div>
 
-      <div class="tag">
-        <img src="assets/icons/HTML.svg" alt="Ícone do HTML">
+        <div class="tag">
+          <img src="assets/icons/HTML.svg" alt="Ícone do HTML">
 
-        <p>
-          HTML
-        </p>
-      </div>
+          <p class="text-md">
+            HTML
+          </p>
+        </div>
 
-      <div class="tag">
-        <img src="assets/icons/CSS.svg" alt="Ícone do CSS">
+        <div class="tag">
+          <img src="assets/icons/CSS.svg" alt="Ícone do CSS">
 
-        <p>
-          CSS
-        </p>
-      </div>
+          <p class="text-md">
+            CSS
+          </p>
+        </div>
 
-      <div class="tag">
-        <img src="assets/icons/JavaScript.svg" alt="Ícone do JavaScript">
+        <div class="tag">
+          <img src="assets/icons/JavaScript.svg" alt="Ícone do JavaScript">
 
-        <p>
-          Javascript
-        </p>
-      </div>
+          <p class="text-md">
+            Javascript
+          </p>
+        </div>
 
-      <div class="tag">
-        <img src="assets/icons/React.svg" alt="Ícone do React">
+        <div class="tag">
+          <img src="assets/icons/React.svg" alt="Ícone do React">
 
-        <p>
-          React
-        </p>
-      </div>
+          <p class="text-md">
+            React
+          </p>
+        </div>
 
-      <div class="tag">
-        <img src="assets/icons/Node.js.svg" alt="Ícone do Node.js">
+        <div class="tag">
+          <img src="assets/icons/Node.js.svg" alt="Ícone do Node.js">
 
-        <p>
-          Node.js
-        </p>
-      </div>
-
-    </section>
+          <p class="text-md">
+            Node.js
+          </p>
+        </div>
+      </section>
+    </div>  
 
     <i class="ph ph-caret-double-down"></i>
   </header>
 
   <main>
     <div class="header">
-      <p>
-        <span>Meu trabalho</span>
+      <p class="subtitle">
+        <span>
+          Meu trabalho
+        </span>
       </p>
 
-      <p>
+      <h2>
         Veja os projetos em destaque
-      </p>
+      </h2>
     </div>
 
     <div class="grid">
@@ -113,11 +115,11 @@
 
         <div class="description">
           
-          <p>
+          <p class="title-sm">
             <b>Travelgram</b>
           </p>
   
-          <p>
+          <p class="text-sm">
             Rede social onde as pessoas mostram os registros de suas viagens pelo mundo
           </p>
         </div>
@@ -127,11 +129,11 @@
         <img src="assets/images/Thumbnail_Project-02.png" alt="Imagem do projeto Tech News">
 
         <div class="description">
-          <p>
+          <p class="title-sm">
             <b>Tech News</b>
           </p>
           
-          <p>
+          <p class="text-sm">
            Homepage de um portal de notícias sobre a área de tecnologia
           </p>
         </div>
@@ -141,11 +143,11 @@
         <img src="assets/images/Thumbnail_Project-03.png" alt="Imagem do projeto página de receitas">
 
         <div class="description">
-          <p>
+          <p class="title-sm">
             <b>Página de receitas</b>
           </p>
   
-          <p>
+          <p class="text-sm">
             Página com o passo a passo de uma receita para cupcakes
           </p>
         </div>
@@ -156,11 +158,11 @@
 
         <div class="description">
           
-          <p>
+          <p class="title-sm">
             <b>Zingen</b>
           </p>
   
-          <p>
+          <p class="text-sm">
             Landing Page completa e responsiva de um aplicativo de Karaokê
           </p>
         </div>
@@ -171,11 +173,11 @@
 
         <div class="description">
           
-          <p>
+          <p class="title-sm">
             <b>Refund</b>
           </p>
   
-          <p>
+          <p class="text-sm">
             Um sistema para pedido e acompanhamento de reembolso 
           </p>
         </div>
@@ -186,11 +188,11 @@
 
         <div class="description">
           
-          <p>
+          <p class="title-sm">
             <b>Página de turismo</b>
           </p>
   
-          <p>
+          <p class="text-sm">
             Página com as principais informações para quem quer viajar para Buran
           </p>
         </div>
@@ -200,13 +202,13 @@
   
   <section>
     <div class="header">
-      <p>
+      <p class="subtitle">
         <span>Meus serviços</span>
       </p>
 
-      <p>
+      <h2>
         Como posso ajudar o seu negócio
-      </p>
+      </h2>
     </div>
 
     <div class="grid">
@@ -215,13 +217,13 @@
         <i class="ph-bold ph-devices"></i>
         
         <div class="description">
-          <p>
+          <p class="title-sm">
             <b>
               Websites e Aplicativos
             </b>
           </p>
 
-          <p>
+          <p class="text-sm">
             Desenvolvimento de interfaces
           </p>
         </div>
@@ -231,13 +233,13 @@
         <i class="ph-bold ph-hard-drives"></i>
         
         <div class="description">
-          <p>
+          <p class="title-sm">
             <b>
               API e banco de dados
             </b>
           </p>
 
-          <p>
+          <p class="text-sm">
             Criação de serviços do sistema 
           </p>
         </div>
@@ -247,12 +249,12 @@
         <i class="ph-bold ph-infinity"></i>
         
         <div class="description">
-          <p>
+          <p class="title-sm">
             <b>
               DevOps
             </b>
 
-            <p>
+            <p class="text-sm">
               Gestão e infraestrutura da aplicação
             </p>
           </p>
@@ -263,19 +265,17 @@
 
   <footer>
     <div class="header">
-      <p>
+      <p class="subtitle">
         <span>
           Contato
         </span>
       </p>
 
-      <p>
-        <b>
-          Gostou do meu trabalho?
-        </b>
-      </p>
+      <h2>
+        Gostou do meu trabalho?
+      </h2>
 
-      <p>
+      <p class="text-md">
         Entre em contato ou acompanhe as minhas redes sociais!
       </p>
     </div>
