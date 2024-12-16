@@ -1,0 +1,29 @@
+#services {
+  padding: 88px 120px 120px;
+  background-color: var(--base-gray-100);
+
+  .card {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+    background-color:inherit;
+    border: 2px solid var(--base-gray-200);
+  }
+
+  .ph-bold {
+  font-size: 48px;
+  }
+}
+
+.ph-devices {
+  color: var(--main-purple);
+}
+
+.ph-hard-drives {
+  color: var(--main-yellow);
+}
+
+.ph-infinity {
+color: var(--main-green);
+}

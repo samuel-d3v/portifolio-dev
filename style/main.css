@@ -1,0 +1,33 @@
+main {
+  padding: 88px 120px 120px;
+}
+
+.grid {
+  grid-template-columns: repeat( 3, 330px);
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 330px;
+  padding: 12px;
+
+  background-color: var(--base-gray-300);
+
+  border-radius: 12px;
+  
+  img{
+    max-width: 100%;
+
+    border-radius: 12px;
+
+    margin-bottom: 24px;
+  }
+
+  .description {
+    display: grid;
+    text-align: left;
+    gap: 8px;
+  }
+}
