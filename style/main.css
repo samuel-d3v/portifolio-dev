@@ -30,4 +30,8 @@ main {
     text-align: left;
     gap: 8px;
   }
+
+  &:hover {
+    border: 1.5px solid var(--base-gray-400);
+  }
 }

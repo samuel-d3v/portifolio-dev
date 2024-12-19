@@ -18,41 +18,50 @@ footer {
     }
   }
 
-  button{
-    max-width: 400px;
-    padding: 20px;
+}
 
-    background-color: var(--base-gray-300); 
+button{
+  max-width: 400px;
+  padding: 20px;
 
-    border: none;
-    border-radius: 8px;
+  background-color: var(--base-gray-300); 
 
-    a{
+  border: none;
+  border-radius: 8px;
+
+  a{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+
+    text-decoration: none;
+    color: var(--base-gray-500);
+    gap: 12px;
+
+    .block{
       display: flex;
-      justify-content:left;
+      justify-content: space-between;
       align-items: center;
 
-      text-decoration: none;
-      color: var(--base-gray-500);
-      gap: 12px;
-
-      .block{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        width: 100%;
-        
-        .ph{
-          color: var(--base-gray-400);
-          font-size: 28px;
-        }
-
-        .ph-arrow-up-right{
-          color: var(--main-blue);
-          font-size: 20px;
-        }
+      width: 100%;
+      
+      .ph{
+        color: var(--base-gray-400);
+        font-size: 28px;
       }
+
+      .ph-arrow-up-right{
+        color: var(--main-blue);
+        font-size: 20px;
+      }
+    }
+  }
+
+  &:hover{
+    border: 1.5px solid var(--main-blue);
+
+    .ph {
+      color: var(--main-blue);
     }
   }
 }
